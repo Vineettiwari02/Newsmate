@@ -1,0 +1,9 @@
+main{
+  padding: 10px;
+  margin: auto;
+  max-width: 1280px;
+  min-height: 78vh;
+}
+.mr-4{
+  margin-left: 15px;
+}

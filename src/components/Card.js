@@ -8,7 +8,7 @@ export const Card = ({article}) => {
     return (
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-3">
             <Link to="/">
-                <img className="rounded-t-lg" src={article.urlToImage || noimg} alt="alttext" />
+                <img className="rounded-t-lg" src={article.image_url || noimg} alt="alttext" />
             </Link>
             <div className="p-5">
                 <Link to="/">
